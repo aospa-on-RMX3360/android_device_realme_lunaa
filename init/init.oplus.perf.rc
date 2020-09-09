@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+on early-boot
+    # Disable serial console notification
+    setprop init.svc.console stopped
+
 on init
     copy_per_line /dev/cpuctl/tasks /dev/cpuctl/system/tasks
 
