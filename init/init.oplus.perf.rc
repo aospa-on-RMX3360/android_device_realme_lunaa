@@ -14,7 +14,7 @@
 
 on early-boot
     # Disable serial console notification
-    setprop init.svc.console stopped
+    stop console
 
 on property:ro.board.platform=lahaina
     # Disable multiple kswapd threads
