@@ -169,6 +169,7 @@ PRODUCT_PACKAGES += \
     init.oplus.display.rc \
     init.oplus.perf.rc \
     init.oplus.sensors.rc \
+    init.oplus.charger.rc \
     init.target.rc \
     ueventd.oplus.rc
 
