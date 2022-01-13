@@ -169,6 +169,7 @@ PRODUCT_PACKAGES += \
     init.oplus.sensors.rc \
     init.oplus.wlan.rc \
     init.qti.ufs.rc \
+    init.oplus.charger.rc \
     init.target.rc \
     ueventd.oplus.rc
 
