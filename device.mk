@@ -85,6 +85,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
     vendor.hw.fm.init=0
 
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.btstack.enable.twsplus=true \
+    persist.vendor.btstack.enable.twsplussho=true
+
 # Boot
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
