@@ -22,6 +22,10 @@ service oplus-post-boot /vendor/bin/sh /vendor/bin/init.oplus.post_boot.sh
 on property:sys.boot_completed=1
     start oplus-post-boot
 
+on property:ro.board.platform=lahaina
+    # Disable multiple kswapd threads
+    write /proc/sys/vm/kswapd_threads 1
+    
 on property:vendor.post_boot.parsed=1
 # IRQ Tuning
 # IRQ 243: msm_drm0
