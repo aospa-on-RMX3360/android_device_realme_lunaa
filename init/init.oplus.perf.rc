@@ -19,6 +19,10 @@ on init
 on property:sys.boot_completed=1
     copy_per_line /dev/cpuctl/tasks /dev/cpuctl/system/tasks
 
+on property:ro.board.platform=lahaina
+    # Disable multiple kswapd threads
+    write /proc/sys/vm/kswapd_threads 1
+    
 on property:vendor.post_boot.parsed=1
     # Background CPU parameter
     write /dev/cpuset/background/cpus 0-1
