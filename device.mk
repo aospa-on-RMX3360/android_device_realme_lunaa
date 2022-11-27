@@ -167,6 +167,7 @@ PRODUCT_PACKAGES += \
     fstab.default \
     init.oplus.camera.rc \
     init.oplus.display.rc \
+    init.oplus.media.rc \
     init.oplus.perf.rc \
     init.oplus.sensors.rc \
     init.oplus.charger.rc \
