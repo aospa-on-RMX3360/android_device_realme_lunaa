@@ -22,13 +22,7 @@
     <!-- UDFPS Color -->
     <color name="config_udfpsColor">#ffffe6</color>
 
-    <!-- HBM type of UDFPS overlay.
-            0 - GLOBAL HBM 
-            1 - LOCAL HBM
-    -->
-    <integer name="config_udfps_hbm_type">0</integer>
-
-        <!-- Margin on the left side of the heads up notification -->
+    <!-- Margin on the left side of the heads up notification -->
     <dimen name="heads_up_status_bar_padding_start">112px</dimen>
 
 </resources>
