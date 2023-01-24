@@ -167,7 +167,6 @@ PRODUCT_PACKAGES += \
     init.oplus.display.rc \
     init.oplus.perf.rc \
     init.oplus.sensors.rc \
-    init.oplus.telephony.rc \
     init.oplus.wlan.rc \
     init.qti.ufs.rc \
     init.target.rc \
