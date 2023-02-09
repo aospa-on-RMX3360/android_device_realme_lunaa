@@ -217,6 +217,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPAFrameworksResTarget \
     AOSPAOPlusSystemUI \
     AOSPAOPlusFrameworks \
     AOSPAOPlusSettings \
