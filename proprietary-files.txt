@@ -759,7 +759,6 @@ vendor/bin/ATFWD-daemon
 vendor/bin/adpl
 vendor/bin/embmsslServer
 vendor/bin/ipacm-diag
-vendor/bin/netmgrd
 vendor/bin/port-bridge
 vendor/bin/qti
 vendor/bin/shsusrd
@@ -789,6 +788,9 @@ vendor/lib64/vendor.qti.hardware.embmssl@1.0.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
+
+# Data - from LA.UM.9.14.r1-19300.01-LAHAINA.QSSI12.0
+vendor/bin/netmgrd
 
 # Data - RUI
 vendor/firmware/ipa_fws.b00|5413b320bd33ecf4895154a0c31b7b6dd66b100c
