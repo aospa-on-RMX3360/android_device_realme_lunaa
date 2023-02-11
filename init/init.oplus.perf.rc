@@ -12,19 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-service oplus-post-boot /vendor/bin/sh /vendor/bin/init.oplus.post_boot.sh
-    class core
-    user root
-    group root system wakelock graphics
-    disabled
-    oneshot
-
 on early-boot
     # Disable serial console notification
     setprop init.svc.console stopped
-
-on property:sys.boot_completed=1
-    start oplus-post-boot
 
 on property:ro.board.platform=lahaina
     # Disable multiple kswapd threads
