@@ -247,6 +247,12 @@ PRODUCT_COPY_FILES += \
 # Platform
 TARGET_BOARD_PLATFORM := lahaina
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service \
+    android.hardware.power@1.2.vendor \
+    vendor.qti.hardware.perf@2.2.vendor
+
 # QTEE
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qteeconnector.retrying_interval=30 \
