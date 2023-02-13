@@ -108,10 +108,10 @@ vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3c
 vendor/firmware/a660_gmu.bin|607402e7c1c49f486258e5e02780e74fcf7311e1
 vendor/firmware/a660_sqe.fw|8e6becfbcff6ff6e64b5edb6f135cc6f656d4ee1
 vendor/firmware/a660_zap.b00|f8df59bf1c76d6cceb152cfd58142af4e0cdabb5
-vendor/firmware/a660_zap.b01|6e8caeae3862f43b0ab3e40d5895bf9fd73d7394
+vendor/firmware/a660_zap.b01|3c3c0b79fb85488f6b2f8c3111879f54919aebb4
 vendor/firmware/a660_zap.b02|bcbdf56fca034c66a9e44242587ed25a1ffe2abe
-vendor/firmware/a660_zap.elf|64feb0d9b3df18a63559f8d1abdfc29d80d03666
-vendor/firmware/a660_zap.mdt|e8605dc04e10d56f2270730ad75e29c0cbade35b
+vendor/firmware/a660_zap.elf|156ae79ac0c819ba063405c545be209ef03d3a66
+vendor/firmware/a660_zap.mdt|0a5333d35e55e897dc306b6de90b5cf589c79990
 
 # Audio - RUI
 odm/etc/acdbdata/Bluetooth_cal.acdb|fb6e43309bc6d860ee4be7d23c9e51d423ce7ee1

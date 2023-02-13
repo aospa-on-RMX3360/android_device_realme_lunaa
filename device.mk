@@ -177,6 +177,8 @@ PRODUCT_PACKAGES += \
     init.oplus.perf.rc \
     init.oplus.post_boot.sh \
     init.oplus.sensors.rc \
+    init.oplus.wlan.rc \
+    init.qti.ufs.rc \
     init.oplus.charger.rc \
     init.target.rc \
     ueventd.oplus.rc
@@ -194,7 +196,9 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.st \
+    android.hardware.nfc-service.st \
+    android.hardware.nfc@1.2.vendor \
+    nqnfcinfo \
     com.android.nfc_extras \
     libchrome.vendor \
     NfcNci \
