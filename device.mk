@@ -191,7 +191,14 @@ PRODUCT_PACKAGES += \
    android.hardware.keymaster@4.1.vendor
 
 # NFC
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
+
 PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    Tag \
+    android.hardware.nfc-service.st \
+    android.hardware.nfc@1.2.vendor \
     android.hardware.secure_element@1.2.vendor
 
 # Namespaces
@@ -239,7 +246,22 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qteeconnector.retrying_timeout=2000
 
 # QTI
-TARGET_COMMON_QTI_COMPONENTS := all
+TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
+    audio \
+    av \
+    bt \
+    display \
+    gps \
+    init \
+    media \
+    overlay \
+    perf \
+    telephony \
+    usb \
+    vibrator \
+    wfd \
+    wlan
 
 # Radio
 PRODUCT_PACKAGES += \

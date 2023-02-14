@@ -336,20 +336,11 @@
     </hal>
     <!-- NFC -->
     <hal format="hidl">
-        <name>android.hardware.nfc</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>INfc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.nxp.hardware.nfc</name>
+        <name>vendor.nxp.nxpnfc</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
         <interface>
-            <name>INqNfc</name>
+            <name>INxpNfc</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -561,18 +552,6 @@
         <interface>
             <name>IGPAppConnector</name>
             <instance>default</instance>
-        </interface>
-    </hal>
-    <!-- Secure Element -->
-    <hal format="hidl">
-        <name>android.hardware.secure_element</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>ISecureElement</name>
-            <instance>SIM1</instance>
-            <instance>SIM2</instance>
-            <instance>eSE1</instance>
         </interface>
     </hal>
     <!-- Soter -->
