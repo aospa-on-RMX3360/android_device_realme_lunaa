@@ -1,6 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0. Sections labeled with 'OOS' are
-## on latest OxygenOS which is LE2115_11_F.16 at present.
+## from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0. Sections labeled with 'RUI' are
+## on latest realmeUI open-access beta which is RMX3360_11_F.03 at present.
 
 # ADSPRPC
 vendor/bin/adsprpcd
@@ -22,7 +22,7 @@ vendor/lib64/libssc_default_listener.so
 vendor/lib64/libsysmon_cdsp_skel.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
-# Adreno - OOS
+# Adreno - RUI
 vendor/firmware/a660_gmu.bin|607402e7c1c49f486258e5e02780e74fcf7311e1
 vendor/firmware/a660_sqe.fw|8e6becfbcff6ff6e64b5edb6f135cc6f656d4ee1
 vendor/firmware/a660_zap.b00|f8df59bf1c76d6cceb152cfd58142af4e0cdabb5
@@ -31,7 +31,7 @@ vendor/firmware/a660_zap.b02|bcbdf56fca034c66a9e44242587ed25a1ffe2abe
 vendor/firmware/a660_zap.elf|53c04f820ea92a0e3ee45a88360250c4252296e8
 vendor/firmware/a660_zap.mdt|d0a56d32b8a917a874ea88a584a8a88548d6541b
 
-# Audio - OOS
+# Audio - RUI
 odm/etc/acdbdata/Bluetooth_cal.acdb|fe5db802d2ea9f51b8a765f69afd11705d898d04
 odm/etc/acdbdata/General_cal.acdb|f6af39c7d1523029b8b7eedfcf1d1ee0e32ab47b
 odm/etc/acdbdata/Global_cal.acdb|ca0e2431a7ef50bc60da6a89f97383da9d7e95d4
@@ -292,7 +292,7 @@ vendor/lib64/libcvp_util.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
-# CVP - OOS
+# CVP - RUI
 vendor/firmware/evass.b00|2595bce1132e8f9bf1832d6aea7c067561095481
 vendor/firmware/evass.b01|dea7b5bd681c451f625c58ff9ec874f1ea86ad18
 vendor/firmware/evass.b02|a7966bf9596be7ab4e9b99156695aeaa34d4ef0a
@@ -316,7 +316,7 @@ vendor/firmware/evass.b19|1ceaf73df40e531df3bfb26b4fb7cd95fb7bff1d
 vendor/firmware/evass.mbn|06987df1e67c16f530e8d79fb5897e4c3b2969ba
 vendor/firmware/evass.mdt|1b00036fbe4e874366cccb3e3def00ed44a2d991
 
-# Camera - OOS
+# Camera - RUI
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache|6d84034beebc1b9f210e6885ff8114c0a1a8ee0e
 odm/etc/camera/ancsegbase/model.data|468dfe976065aec4b98b2633c95dd68ac9c33622
 odm/etc/camera/asd/class.dlc|0303c404d43f8aca151551cdf779fabb55738a84
@@ -1075,7 +1075,7 @@ vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 
-# Data - OOS
+# Data - RUI
 vendor/firmware/ipa_fws.b00|1365a355064949539679b3e4308d50d0de508311
 vendor/firmware/ipa_fws.b01|402109fe795dae04a4dc554ee81df7edbd9002b1
 vendor/firmware/ipa_fws.b02|de771411df81d0c4183a698746351ee0943f5901
@@ -1092,7 +1092,7 @@ vendor/lib/libdiag.so
 vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal@1.0.so
 
-# Display - OOS
+# Display - RUI
 vendor/bin/hw/vendor.display.color@1.0-service|347fda7fe824e405829e1772739e999937421a58
 vendor/bin/hw/vendor.qti.hardware.display.composer-service|4135aa3ee41f7c569ee14854039264733e7b8d7e
 vendor/bin/feature_enabler_client|d7b882cc268fbfe01cb1d7f6e554201a7e45b6a1
@@ -1141,14 +1141,14 @@ vendor/lib64/vendor.display.color@1.4.so|b5566647c1581f26a3914143414f8a18a97a708
 vendor/lib64/vendor.display.color@1.5.so|5a1e7d0de33509909cf0f514b754e95f2233c86e
 vendor/lib64/vendor.display.postproc@1.0.so|e63c770fc317a9d98ddd2de2c7d6250258398f2e
 
-# Display (CWB) - OOS
+# Display (CWB) - RUI
 odm/bin/cwb_utils|6a5e9678e6ac13eb01ee5f55b827dabc11a1154d
 odm/etc/vintf/manifest/manifest_oplus_cwb.xml|8b03271b55b4ce9722e91a6d42e571c138bcb61f
 odm/lib64/vendor.oplus.hardware.cwb@1.0.so|3d245702c05128c2f9a933421d87df25a2d0c0c0
 vendor/lib64/libcwb_sm8350.so|1411ce7190cb38dfe56c2485e45aeec8a8c5374e
 vendor/lib64/vendor.oplus.hardware.cwb@1.0.so|ceb35acb0e90809a7708e8831c9e36b378e3a968
 
-# Display (Pixelworks) - OOS
+# Display (Pixelworks) - RUI
 odm/bin/hw/vendor.pixelworks.hardware.display.iris-service|810b2d83e36282c2a45c4c552eb1b8eeb47d76f4
 odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service|683aa0683ed4cbd68e61628b7153878fa0215399
 odm/etc/init/vendor.pixelworks.hardware.display.iris-service.rc|4f49e4ade8994fef1333f48bcb46c4da0aa8437f
@@ -1241,7 +1241,7 @@ vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib64/libfastcvdsp_stub.so
 -vendor/lib64/libfastcvopt.so
 
-# Fingerprint - OOS
+# Fingerprint - RUI
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service|acb6c9ddee8ee4620ec7fa325afd1f8f75dd854a
 odm/bin/init.oplus.fingerprints.sh|950befd6f64d4055bf47ab066a0a1e0080e6191e
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|11b728dc6dd93480b8f8aebd8c639589ec143ad5
@@ -1610,7 +1610,7 @@ vendor/etc/seccomp_policy/qspm.policy
 vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
 
-# RemoteFS - OOS
+# RemoteFS - RUI
 vendor/bin/rmt_storage|74caac888a84f8b83c3fa167b957c0e7f5f85bb2
 vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
 
@@ -1631,7 +1631,7 @@ vendor/lib64/libminkdescriptor.so
 vendor/lib64/libnative-api.so
 vendor/lib64/libqcbor.so
 
-# Sensors - OOS
+# Sensors - RUI
 odm/bin/oplus_sensor_fb|0a791739921434ee29b4a5db7fc09a95e92c091e
 odm/etc/sensor/config/lahaina_aw9610x_0.json|132445e76e560137a4df7600c030d5ddb0a9f3c1
 odm/etc/sensor/config/lahaina_aw9610x_down_0.json|a80d879bb3ecaa734d6ac2c0857b6846d5df3907
@@ -1783,7 +1783,7 @@ vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc
 -vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml
 vendor/lib64/vendor.qti.hardware.limits@1.0.so
 
-# Thermal Engine - OOS
+# Thermal Engine - RUI
 vendor/bin/thermal-engine|6a9f0faf353a29203b42790f8fc7bc44b5f366f8
 vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
 -vendor/lib/libthermalclient.so|6ed686c6c39546a7bf532767f6d87808a42b1176
@@ -1795,7 +1795,7 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
-# Touch - OOS
+# Touch - RUI
 odm/firmware/tp/19815/FW_S3908_SAMSUNG.img|aff80e47bd5361baf8047af516588a8619c8a190
 odm/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img|5b26351920d807cffc9c46ddd535f38db35674ab
 odm/firmware/tp/19815/LIMIT_S3908_SAMSUNG.img|39306ec5386a394e54711c94457f643e7e957a17
@@ -1863,7 +1863,7 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
 
-# VPU - OOS
+# VPU - RUI
 vendor/firmware/vpu20_4v.b01|423a650748cdfd431d4a72569c6aa763db998e67
 vendor/firmware/vpu20_4v.b02|2756850def9b5d077cc285ace8feed8896a6526e
 vendor/firmware/vpu20_4v.b03|7772b18b16e520641e8051fd6284384e9b0e1939
@@ -1887,7 +1887,7 @@ vendor/firmware/vpu20_4v.mbn|65c9cdf4587d155aeca908794f38c8fff1360f5e
 vendor/firmware/vpu20_4v.mdt|4614089c37e433be0c2214e4f7659032dfe74d86
 vendor/firmware/vpu20_4v_unsigned.mbn|83429bfe2bf8fb8f19a9298a4ffc83594bbb8b90
 
-# Vibrator - OOS
+# Vibrator - RUI
 odm/firmware/100ms_RTP.bin|53d01a8a09986b43ca4c3e706f54b0cef1152a6e
 odm/firmware/120ms_RTP.bin|bd7de4df7e6681b5b7cf9d5a47e49b33d696e3e8
 odm/firmware/140ms_RTP.bin|11cb202a1e862e6cac177a890db3b296858e13a4
@@ -2058,14 +2058,14 @@ vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 # WLAN
 vendor/bin/cnss-daemon
 
-# WLAN - OOS
+# WLAN - RUI
 odm/etc/wifi/bdwlan.elf|1f728fd2862903132686644072fb3e7567b01505
 odm/etc/wifi/cnss_diag_always_on.conf|7c8d94e909d88205adf3bdb428cb6a39f012cabc
 odm/etc/wifi/regdb.bin|30ff599f33dd4058bc79482d5e2e26a4a98adb95
 vendor/etc/wifi/p2p_supplicant_overlay.conf|05f22cd82cbe806d46185a3e5ce69c86cd307128
 vendor/etc/wifi/wpa_supplicant_overlay.conf|fd618998d3dcd4b3a408807fa629967c378ac45a
 
-# Widevine - OOS
+# Widevine - RUI
 odm/bin/hw/android.hardware.drm@1.3-service.widevine|c86a66a295e46195c59a40e8c7d7ea3303f27b5e
 odm/etc/init/android.hardware.drm@1.3-service.widevine.rc|7801ccf2718b30ffac54c4beb88370726a4a86c6
 -odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
