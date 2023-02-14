@@ -196,22 +196,16 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPAOnePlus9ProSystemUI \
-    AOSPAOnePlus9SeriesFrameworks \
-    AOSPAOnePlus9SeriesSettings \
-    AOSPAOnePlus9SeriesSystemUI \
-    AOSPAOnePlus9SystemUI \
+    AOSPALunaaSystemUI \
+    AOSPALunaaFrameworks \
+    AOSPALunaaSettings \
     FrameworksResTarget \
-    OnePlus9Frameworks \
-    OnePlus9ProFrameworks \
-    OnePlus9ProSettingsProvider \
-    OnePlus9ProSystemUI \
-    OnePlus9SeriesCarrierConfig \
-    OnePlus9SeriesFrameworks \
-    OnePlus9SeriesSettings \
-    OnePlus9SeriesSystemUI \
-    OnePlus9SettingsProvider \
-    OnePlus9SystemUI \
+    LunaaFrameworks \
+    LunaaEEASettingsProvider \
+    LunaaINSettingsProvider \
+    LunaaSystemUI \
+    OPlusCarrierConfig \
+    LunaaSettings \
     WifiResTarget
 
 # Partitions
