@@ -12,7 +12,6 @@
         android:isStatic="true"
         android:priority="850"
         android:requiredSystemPropertyName="ro.boot.prjname"
-        android:requiredSystemPropertyValue="21675"
         android:requiredSystemPropertyValue="21603"
         android:targetPackage="com.android.providers.settings" />
 </manifest>

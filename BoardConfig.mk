@@ -134,7 +134,8 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_BINARIES := kernel
 BOARD_KERNEL_PAGESIZE := 4096
 KERNEL_DEFCONFIG := vendor/lahaina-qgki_defconfig
-USE_KERNEL_AOSP_LLVM := true
+TARGET_CLANG_VERSION := playground
+TARGET_KERNEL_CLANG_PATH := /home/rahul/aospa/prebuilts/clang/kernel/linux-x86/playground
 
 # Kernel - Additional flags
 TARGET_KERNEL_ADDITIONAL_FLAGS := CONFIG_OPLUS_CHG_OP9RT_PMIC_VOOCPHY=y
